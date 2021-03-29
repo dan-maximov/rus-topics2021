@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import "antd/dist/antd.css";
+import { Layout, Typography, List, Button } from "antd";
+import { useRandomTopics } from "./useRandomTopics";
+import "./app.css"
 
-function App() {
+const { Header, Content, Footer } = Layout;
+
+export default function App() {
+  const [currentTopics, generateNewTopics] = useRandomTopics();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <Layout className="layout">
+      <Header className="header">
+        <Typography.Title level={2} className="title">
+          Генератор тем для итогового сочинения 2021
+        </Typography.Title>
+      </Header>
+      <Content className="content">
+        <List
+          itemLayout="horizontal"
+          dataSource={currentTopics}
+          renderItem={(item) => (
+            <List.Item>
+              <List.Item.Meta title={item.title} description={item.topic} />
+            </List.Item>
+          )}
+        />
+        <Button onClick={generateNewTopics}>Сгенерирновать новые темы</Button>
+      </Content>
+      <Footer style={{ textAlign: "center" }}>
+        <a href="https://github.com/dan-maximov" rel="noreferrer noopener" target="_blank">
+          Daniel Maximov 2021
         </a>
-      </header>
-    </div>
+      </Footer>
+    </Layout>
   );
 }
-
-export default App;
