@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ba6acc8.chunk.css",
-    "main.js": "/static/js/main.b78f4efd.chunk.js",
-    "main.js.map": "/static/js/main.b78f4efd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2ec8541c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2ec8541c.js.map",
-    "static/css/2.26ca8a35.chunk.css": "/static/css/2.26ca8a35.chunk.css",
-    "static/js/2.d1074880.chunk.js": "/static/js/2.d1074880.chunk.js",
-    "static/js/2.d1074880.chunk.js.map": "/static/js/2.d1074880.chunk.js.map",
-    "static/js/3.aca28411.chunk.js": "/static/js/3.aca28411.chunk.js",
-    "static/js/3.aca28411.chunk.js.map": "/static/js/3.aca28411.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.26ca8a35.chunk.css.map": "/static/css/2.26ca8a35.chunk.css.map",
-    "static/css/main.9ba6acc8.chunk.css.map": "/static/css/main.9ba6acc8.chunk.css.map",
-    "static/js/2.d1074880.chunk.js.LICENSE.txt": "/static/js/2.d1074880.chunk.js.LICENSE.txt"
+    "main.css": "/rus-topics2021/static/css/main.9ba6acc8.chunk.css",
+    "main.js": "/rus-topics2021/static/js/main.0b5750bd.chunk.js",
+    "main.js.map": "/rus-topics2021/static/js/main.0b5750bd.chunk.js.map",
+    "runtime-main.js": "/rus-topics2021/static/js/runtime-main.b4c8fa94.js",
+    "runtime-main.js.map": "/rus-topics2021/static/js/runtime-main.b4c8fa94.js.map",
+    "static/css/2.26ca8a35.chunk.css": "/rus-topics2021/static/css/2.26ca8a35.chunk.css",
+    "static/js/2.59f1c98f.chunk.js": "/rus-topics2021/static/js/2.59f1c98f.chunk.js",
+    "static/js/2.59f1c98f.chunk.js.map": "/rus-topics2021/static/js/2.59f1c98f.chunk.js.map",
+    "static/js/3.cebe9a68.chunk.js": "/rus-topics2021/static/js/3.cebe9a68.chunk.js",
+    "static/js/3.cebe9a68.chunk.js.map": "/rus-topics2021/static/js/3.cebe9a68.chunk.js.map",
+    "index.html": "/rus-topics2021/index.html",
+    "static/css/2.26ca8a35.chunk.css.map": "/rus-topics2021/static/css/2.26ca8a35.chunk.css.map",
+    "static/css/main.9ba6acc8.chunk.css.map": "/rus-topics2021/static/css/main.9ba6acc8.chunk.css.map",
+    "static/js/2.59f1c98f.chunk.js.LICENSE.txt": "/rus-topics2021/static/js/2.59f1c98f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ec8541c.js",
+    "static/js/runtime-main.b4c8fa94.js",
     "static/css/2.26ca8a35.chunk.css",
-    "static/js/2.d1074880.chunk.js",
+    "static/js/2.59f1c98f.chunk.js",
     "static/css/main.9ba6acc8.chunk.css",
-    "static/js/main.b78f4efd.chunk.js"
+    "static/js/main.0b5750bd.chunk.js"
   ]
 }
